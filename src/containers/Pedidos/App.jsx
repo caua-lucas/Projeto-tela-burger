@@ -1,9 +1,9 @@
 import { useState, useRef } from 'react'
 import axios from "axios"
-import { H1, Image, Paragraph, InputPedido, ButtonNew, Container, ContainerItens, Pedidos } from './sytled'
+import { H1, Image, Paragraph, InputPedido, ButtonNew, Container, ContainerItens, Pedidos } from './Pedidos/sytled'
 import Logo from './assets/burgerLogo.svg'
 import Trash from './assets/trash.svg'
-import { GlobalStyle } from './globalStyle'
+import { GlobalStyle } from '../../globalStyle'
 import './App.css'
 
 function App() {
